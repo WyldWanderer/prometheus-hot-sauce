@@ -1,24 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import React, {useState, useEffect} from 'react';
+import { Route, Link} from "react-router-dom"
 
-function App() {
+const App = () => {
+  
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <div>
+        <h1>Prometheus Hot Sauce</h1>
+        <h3>Bring some fire to your life</h3>
+      </div>
+      <nav>
+        <ul><Link to="/home">Home</Link></ul>
+        <ul><Link to="/next-batch-notes">Next Batch</Link></ul>
+        <ul><Link to="/sauces">Pick Your Fire</Link></ul>
+      </nav>
+    </>
   );
 }
 
