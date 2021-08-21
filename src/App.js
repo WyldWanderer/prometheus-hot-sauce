@@ -1,12 +1,13 @@
 import React, {useState, useEffect} from 'react';
 import { Route, Link} from "react-router-dom"
-import HotSauceCard from './components/HotSauceCard';
 import HomeScreen from './components/HomeScreen';
+import Sauces from './rawData/hotSaucesData.json'
 
 
 const App = () => {
-  const
   
+  const sauceData = Sauces
+
   return (
     <>
       <div>
@@ -21,7 +22,7 @@ const App = () => {
       </nav>
       <div>
         <Route path="/" render={() => {
-          return <HomeScreen sauces={sauces}/> }
+          return <HomeScreen sauces={sauceData.sauces}/> }
         }/>
       </div>
       

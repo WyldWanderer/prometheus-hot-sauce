@@ -1,36 +1,36 @@
 {
     "sauces" : {
-        "thePrince" : {
+        "0" : {
             "name" : "The Prince",
             "description": "",
             "image" : ""
         },
 
-        "greenWithEnvy" : {
+        "1" : {
             "name" : "Green With Envy",
             "description" : "",
             "image" : ""
         },
 
-        "smokeyTheBear" : {
+        "2" : {
             "name" : "Smokey the Bear",
             "description" : "Smokey doesn't like fires and that applies to his hot sauce too. ",
             "image" : ""
         },
 
-        "summerDaze" : {
+        "3" : {
             "name" : "Summer Daze",
             "description" : "",
             "image" : ""
         },
 
-        "islandInTheSun" : {
+        "4" : {
             "name" : "Island In The Sun",
             "description" : "",
             "image" : ""
         },
 
-        "theSmokeshow" : {
+        "5" : {
             "name" : "The Smokeshow",
             "description" : "",
             "image" : ""
