@@ -9,6 +9,7 @@ const HotSauceCard = (props) => {
             return (<div>
                         <img src={sauce.image} />
                         <h3>{sauce.name}</h3>
+                        <h4>Goes Great With: {sauce.bestOn}</h4>
                         <h4>{sauce.description}</h4>
                     </div>)
         })}

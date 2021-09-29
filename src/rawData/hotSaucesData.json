@@ -1,38 +1,58 @@
 {
     "sauces" : {
         "0" : {
-            "name" : "The Prince",
-            "description": "",
+            "name" : "The Prince - Raspberry Habanero" ,
+            "description": "Maybe it's because of the smooth blend of sweet and heat that makes us think of Prince, maybe it's because we can't help singing Raspberry Beret everytime we eat it, either way, this sauce reigns supreme.",
+            "bestOn": "Pork, chicken, burgers, merlot or another fruity red wine would go great as well.",
             "image" : ""
         },
 
         "1" : {
-            "name" : "Green With Envy",
-            "description" : "",
+            "name" : "Green With Envy - Jalapeno Lime",
+            "description" : "It won't leave you red faced and begging for water but this middle of the road sauce is great to bring some citrus tang and mellow kick to whatever you are chowing on.",
+            "bestOn": "Eggs, beef, chips, margaritas, tongue (Tyler's recommendation, seriously it's good)",
             "image" : ""
         },
 
         "2" : {
-            "name" : "Smokey the Bear",
-            "description" : "Smokey doesn't like fires and that applies to his hot sauce too. ",
+            "name" : "Smokey the Bear - Chipotle",
+            "description" : "Smokey doesn't like fires and that applies to his hot sauce too. Mild with enough smokiness to bring out the fire department",
+            "bestOn": "Anything you want to add some smokiness to, pairs well with whiskey",
             "image" : ""
         },
 
         "3" : {
-            "name" : "Summer Daze",
-            "description" : "",
+            "name" : "Summer Daze - Watermelon Serrano",
+            "description" : "It's basically a bottled version of summer. This sauce brings the sweet brightness of watermelon and earthy heat of serrano peppers to the party. Middle of the scale on heat, this in one you can eat all day.",
+            "bestOn" : "Pork and beef are the big winners here",
             "image" : ""
         },
 
         "4" : {
-            "name" : "Island In The Sun",
-            "description" : "",
+            "name" : "Island In The Sun - Pineapple Habanero",
+            "description" : "Like sitting on the beach too long, this sauce brings the burn. The pineapple adds some sweetness but doesn't take any of the edge off the habanero kick and lasting fire.",
+            "bestOn" : "Pork, chicken, tortilla chips, Belgian tripel style beers, IPAs, wheat beers",
             "image" : ""
         },
 
         "5" : {
             "name" : "The Smokeshow",
-            "description" : "",
+            "description" : "Like the perfect blend of looks and personality, this sauce does it all. Blending smoke and peppery heat together gives a huge flavor boost and lasting heat to whatever you drop it on.",
+            "bestOn" : "Beef, pork, chicken, your hand, cabernet sauvignon, whiskey, veggies",
+            "image" : ""
+        }
+    },
+
+    "next-batch": {
+        "1": {
+            "name" : "Next Batch Name #1",
+            "description" : "Next Batch Description",
+            "image" : ""
+        },
+
+        "2": {
+            "name" : "Next Batch Name #2",
+            "description" : "Next Batch Description",
             "image" : ""
         }
     }
