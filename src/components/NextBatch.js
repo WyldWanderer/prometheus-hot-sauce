@@ -4,7 +4,8 @@ import HotSauceCard from "./HotSauceCard"
 const NextBatch = (props) => {
     return(
         <>
-            <h2 class="title">Check out what is coming soon! Want to help? Consider leaving a tip through the link above to support the next round.</h2>
+            <h3>BEFORE YOU ORDER, I have two requests. First, I want you to bring out your inner food critic and give me feedback on the sauces. Improvement comes through feedback I would love to hear yours. Second, to try and cut down on waste if you can return your bottles once they are empty I would appreciate it, plus it keeps costs down so I can keep making sauces for you lovely people. Want to help? Consider leaving a tip through the link above to support the next round.</h3>
+            <h2 class="title">Check out what is coming soon!</h2>
             <div>    
                 {props.sauces[1].name ? <HotSauceCard sauces={props.sauces}/> : <h1 align="center">Not sure what's next, check back soon!</h1>} 
             </div>
