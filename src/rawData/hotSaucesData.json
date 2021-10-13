@@ -45,6 +45,22 @@
 
     "next-batch": {
         "1": {
+            "name" : "",
+            "description" : "",
+            "bestOn" : "",
+            "image" : ""
+        },
+
+        "2": {
+            "name" : "",
+            "description" : "",
+            "bestOn" : "",
+            "image" : ""
+        }
+    },
+
+    "batch-in-progress": {
+        "1": {
             "name" : "Killer Bees - Honey Roasted Habanero",
             "description" : "Sweet and heat is one of my favorite combos. The one two punch goes great with so many things and with autumn here, I think this will fit right in with the cold weather.",
             "bestOn" : "Let me know what you find!",
