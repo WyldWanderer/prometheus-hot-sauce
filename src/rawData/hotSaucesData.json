@@ -40,6 +40,20 @@
             "description" : "Like the perfect blend of looks and personality, this sauce does it all. Blending smoke and peppery heat together gives a huge flavor boost and lasting heat to whatever you drop it on.",
             "bestOn" : "Beef, pork, chicken, your hand, cabernet sauvignon, whiskey, veggies",
             "image" : ""
+        }, 
+
+        "6" : {
+            "name" : "Killer Bees - Honey Roasted Habanero",
+            "description" : "Sweet and heat is one of my favorite combos. The one two punch goes great with so many things and with autumn here, I think this will fit right in with the cold weather.",
+            "bestOn" : "Let me know what you find!",
+            "image" : ""
+        },
+
+        "7": {
+            "name" : "Ti-Malice - Haitian Creole Blend",
+            "description" : "Ti-Malice comes from Haitian folklore and is named after it's creator, Ti-Malice the trickster. Ti-Malice got fed up having to share food with his nemesis, Bouki, so he created this sauce to cause so much pain to Bouki that he would stop eating. Unfortunately, Ti-Malice's plan backfired, and because the sauce ended up being so good it is now a staple of Carribean style hot sauces.",
+            "bestOn" : "Let me know what you find!",
+            "image" : ""
         }
     },
 
