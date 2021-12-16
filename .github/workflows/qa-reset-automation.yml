@@ -1,0 +1,19 @@
+name: update-qa-after-release
+on: 
+  push:
+    branches: [ master ]
+jobs:
+  update-qa:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Update QA
+      uses: actions/checkout@v2
+      with: 
+        ref: master
+      run: | 
+          git fetch --all
+          git checkout qa
+          git merge --ff-only origin/main
+          git push 
+
+    
