@@ -4,7 +4,7 @@ jobs:
   update-qa:
     runs-on: ubuntu-latest
     steps:
-      - name: Update QA
+        name: Update QA
         uses: actions/checkout@v2
         run: | 
           git checkout master
