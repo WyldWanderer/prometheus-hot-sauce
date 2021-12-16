@@ -1,13 +1,23 @@
 name: update-qa-after-release
-on: [push]
+on: 
+  push:
+    branches: [ master ]
 jobs:
   update-qa:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-        with: 
-          ref: master
-      - run: | 
+    - name: Install git
+      run: |
+        apt-get install -y git
+        git --version
+        echo "Path is ... $PATH"
+        PATH=$PATH:$(which git)
+        echo "Path is ... $PATH"
+    - name: Update QA
+      uses: actions/checkout@v2
+      with: 
+        ref: master
+      run: | 
           git fetch --all
           git checkout qa
           git merge --ff-only origin/main
