@@ -4,13 +4,12 @@ jobs:
   update-qa:
     runs-on: ubuntu-latest
     steps:
-      name: Update QA
-      uses: actions/checkout@v2
-      run: | 
-        git checkout master
-        git fetch --all
-        git checkout qa
-        git merge --ff-only origin/main
-        git push 
+      - uses: actions/checkout@v2
+      - run: git checkout master
+      - run: git fetch --all
+      - run: git checkout qa
+      - run: git merge --ff-only origin/main
+      - run: git push 
+        
 
     
