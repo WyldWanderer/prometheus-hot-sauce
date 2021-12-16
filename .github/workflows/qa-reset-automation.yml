@@ -14,7 +14,6 @@ jobs:
         PATH=$PATH:$(which git)
         echo "Path is ... $PATH"
     - name: Update QA
-        uses: actions/checkout@v2
         run: | 
           git checkout master
           git fetch --all
