@@ -5,6 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+      - run: git fetch
       - run: git checkout master
       - run: git fetch --all
       - run: git checkout qa
