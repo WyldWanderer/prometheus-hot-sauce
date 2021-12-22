@@ -8,8 +8,7 @@ jobs:
       - run: git checkout master
       - run: git fetch --all
       - run: git checkout qa
-      - run: git merge
-      - run: git merge --ff-only master
+      - run: git merge master --allow-unrelated-histories
       - run: git push 
         
 
