@@ -12,7 +12,7 @@ jobs:
       - run: git fetch --all
       - run: git checkout qa
       - run: git merge
-      - run: git merge --ff-only origin/master
+      - run: git merge --ff-only origin/master --allow-unrelated-histories
       - run: git push 
         
 
