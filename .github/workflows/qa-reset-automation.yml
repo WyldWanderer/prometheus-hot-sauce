@@ -1,5 +1,8 @@
 name: update-qa-after-release
-on: push
+on: 
+  push:
+    branches: [master]
+
 jobs:
   update-qa:
     runs-on: ubuntu-latest
@@ -9,7 +12,7 @@ jobs:
       - run: git config --global user.name "WyldWanderer"
       - run: git fetch --all
       - run: git checkout qa
-      - run: git merge master --allow-unrelated-histories
+      - run: git merge master
       - run: git push 
         
 
