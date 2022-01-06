@@ -9,7 +9,7 @@ jobs:
       - run: git config --global user.name "WyldWanderer"
       - run: git fetch --all
       - run: git checkout qa
-      - run: git merge origin/master
+      - run: git merge origin/master --allow-unrelated-histories
       - run: git push 
         
 
