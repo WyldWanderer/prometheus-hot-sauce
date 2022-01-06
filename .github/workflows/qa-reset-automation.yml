@@ -1,7 +1,7 @@
 name: update-qa-after-release
 on: 
   push:
-    branch: [ origin/master ]
+    branch: [ master ]
 jobs:
   update-qa:
     runs-on: ubuntu-latest
