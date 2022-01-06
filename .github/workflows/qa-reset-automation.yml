@@ -1,0 +1,16 @@
+name: update-qa-after-release
+on: push
+jobs:
+  update-qa:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - run: git config --global user.email "living2snowboard@gmail.com"
+      - run: git config --global user.name "WyldWanderer"
+      - run: git fetch --all
+      - run: git checkout qa
+      - run: git merge origin/master --allow-unrelated-histories
+      - run: git push 
+        
+
+    
