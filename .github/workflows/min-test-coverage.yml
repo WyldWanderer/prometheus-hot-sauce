@@ -1,5 +1,13 @@
-uses: VeryGoodOpenSource/very_good_coverage@v1.2.0
-with:
-  path: './coverage/lcov.info'
-  min_coverage: 0
-  exclude: '**/*_observer.dart **/change.dart'
+name: Minimum Test Coverage Report
+on:
+  pull_request:
+    types:
+     - opened
+    branches:
+     - master
+jobs:
+  minimum-coverage-test:
+    uses: VeryGoodOpenSource/very_good_coverage@v1.2.0
+    with:
+      path: './coverage/lcov.info'
+      min_coverage: 0
