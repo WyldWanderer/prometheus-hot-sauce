@@ -10,10 +10,6 @@ import LeaveATip from "./components/LeaveATip";
 const App = () => {
   
   const sauceData = Sauces
-  
-  const doesNothing = () => {
-    console.log('nothing')
-  }
 
   return (
     <body>
