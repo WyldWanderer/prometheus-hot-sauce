@@ -59,14 +59,14 @@
 
     "next-batch": {
         "1": {
-            "name" : "",
-            "description" : "",
-            "bestOn" : "",
+            "name" : "Island In The Sun - Pineapple Habanero",
+            "description" : "Like sitting on the beach too long, this sauce brings the burn. The pineapple adds some sweetness but doesn't take any of the edge off the habanero kick and lasting fire.",
+            "bestOn" : "Pork, chicken, tortilla chips, Belgian tripel style beers, IPAs, wheat beers",
             "image" : ""
         },
 
         "2": {
-            "name" : "",
+            "name" : "Cherry Bomb",
             "description" : "",
             "bestOn" : "",
             "image" : ""
