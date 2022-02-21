@@ -8,7 +8,7 @@ const HotSauceCard = (props) => {
         {sauceInfo.map((sauce) => {
             return (<div>
                         <img width="500" length="500" src={sauce.image} />
-                        <h3>{sauce.name}</h3>
+                        <h3 class="title">{sauce.name}</h3>
                         <h4>{sauce.description}</h4>
                         <h4>Goes Great With: {sauce.bestOn}</h4>
                     </div>)
