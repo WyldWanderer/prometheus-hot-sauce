@@ -37,6 +37,9 @@ const App = () => {
           return <LeaveATip />
         }}/>
       </div>
+      <span class='title'>
+        Questions? Send us a message at prometheushotsauce@gmail.com
+      </span>
     </body>
   );
 }

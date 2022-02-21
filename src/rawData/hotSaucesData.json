@@ -45,7 +45,7 @@
         "6" : {
             "name" : "Killer Bees - Honey Roasted Habanero",
             "description" : "Sweet and heat is one of my favorite combos. The one two punch goes great with so many things and with autumn here, I think this will fit right in with the cold weather.",
-            "bestOn" : "Let me know what you find!",
+            "bestOn" : "This is a very thin sauce so best when mixed in with a dish, great on veggies, whiskey and anything you want a sweet/spicy combo on",
             "image" : ""
         },
 
@@ -59,16 +59,16 @@
 
     "next-batch": {
         "1": {
-            "name" : "",
-            "description" : "",
-            "bestOn" : "",
+            "name" : "Island in the Sun - Pineapple Habanero",
+            "description" : "Back by popular demand! Like sitting on the beach too long, this sauce brings the burn. The pineapple adds some sweetness but doesn't take any of the edge off the habanero kick and lasting fire.",
+            "bestOn" : "Pork, chicken, tortilla chips, Belgian tripel style beers, IPAs, wheat beers",
             "image" : ""
         },
 
         "2": {
-            "name" : "",
-            "description" : "",
-            "bestOn" : "",
+            "name" : "Cherry Bomb - Smoked Cherry Habanero",
+            "description" : "Just like the firecracker it is named after, an explosion of flavor followed by smoky goodness",
+            "bestOn" : "We will see!",
             "image" : ""
         }
     },
