@@ -49,12 +49,17 @@
             "image" : ""
         },
 
-        "7": {
+        "7" : {
             "name" : "Ti-Malice - Haitian Creole Blend",
             "description" : "Ti-Malice comes from Haitian folklore and is named after it's creator, Ti-Malice the trickster. Ti-Malice got fed up having to share food with his nemesis, Bouki, so he created this sauce to cause so much pain to Bouki that he would stop eating. Unfortunately, Ti-Malice's plan backfired, and because the sauce ended up being so good it is now a staple of Carribean style hot sauces.",
             "bestOn" : "Eggs!, toast, burritos, wheat beer (Blue Moon especially)",
             "image" : ""
-        }
+        },
+        "8" : {
+            "name" : "Cherry Bomb - Smoked Cherry Habanero",
+            "description" : "Just like the firecracker it is named after, an explosion of flavor followed by smokey goodness",
+            "bestOn" : "Vanilla bean ice cream, beef, bourbon, dark chocolate",
+            "image" : ""}
     },
 
     "next-batch": {
@@ -75,16 +80,16 @@
 
     "batch-in-progress": {
         "1": {
-            "name" : "Island in the Sun - Pineapple Habanero",
-            "description" : "Back by popular demand! Like sitting on the beach too long, this sauce brings the burn. The pineapple adds some sweetness but doesn't take any of the edge off the habanero kick and lasting fire.",
-            "bestOn" : "Pork, chicken, tortilla chips, Belgian tripel style beers, IPAs, wheat beers",
+            "name" : "The Smokeshow - Arbol & Chipotle",
+            "description" : "Like the perfect blend of looks and personality, this sauce does it all. Blending smoke and peppery heat together gives a huge flavor boost and lasting heat to whatever you drop it on.",
+            "bestOn" : "Beef, pork, chicken, your hand, cabernet sauvignon, whiskey, veggies",
             "image" : ""
         },
 
         "2": {
-            "name" : "Cherry Bomb - Smoked Cherry Habanero",
-            "description" : "Just like the firecracker it is named after, an explosion of flavor followed by smoky goodness",
-            "bestOn" : "We will see!",
+            "name" : "Plan B - Roasted Ghost Pepper",
+            "description" : "As Mike Tyson once said 'Everybody has a plan until they get punched in the mouth'. Mirroring both the spirit and intent of those words, this sauce hits hard so be prepared.",
+            "bestOn" : "a liability waiver",
             "image" : ""
         }
     }
