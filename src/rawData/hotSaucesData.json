@@ -64,16 +64,16 @@
 
     "next-batch": {
         "1": {
-            "name" : "",
-            "description" : "",
-            "bestOn" : "",
+            "name" : "The Smokeshow - Arbol & Chipotle",
+            "description" : "Like the perfect blend of looks and personality, this sauce does it all. Blending smoke and peppery heat together gives a huge flavor boost and lasting heat to whatever you drop it on.",
+            "bestOn" : "Beef, pork, chicken, your hand, cabernet sauvignon, whiskey, veggies",
             "image" : ""
         },
 
         "2": {
-            "name" : "",
-            "description" : "",
-            "bestOn" : "",
+            "name" : "Plan B - Roasted Ghost Pepper",
+            "description" : "As Mike Tyson once said 'Everybody has a plan until they get punched in the mouth'. Mirroring both the spirit and intent of those words, this sauce hits hard so be prepared.",
+            "bestOn" : "a liability waiver",
             "image" : ""
         }
     },
